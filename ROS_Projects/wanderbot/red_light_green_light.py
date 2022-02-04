@@ -9,7 +9,7 @@ def mover():
     rospy.init_node('light')
 
     red_light_twist = Twist()
-    red_light_twist.linear.x = -0.05
+    red_light_twist.linear.x = 0
     green_light_twist = Twist()
     green_light_twist.linear.x = 0.05
 
