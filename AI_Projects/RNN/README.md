@@ -20,12 +20,12 @@ This part implements a basic RNN network to solve time series prediction by:
 
 This part implements an LSTM network to conduct sentiment analysis by:
 
-1. Load the data from IMDB review dataset and print out the lengths of sequences. (3 Points)
+1. Load the data from IMDB review dataset and print out the lengths of sequences.
 2. Preprocess review data to meet the network input requirement by specifying number of words=1000, setting the analysis length of the review = 100, and padding the input sequences. (10 Points)
-3. Build the LSTM model with 1 embedding layer, 1 LSTM layer, and 1 Dense layer. Print out model summary. The embedding vector is specified with the dimension of 8. (10 Points)
-4. Compile the LSTM model with Adam optimizer, binary_crossentropy loss function, and accuracy metrics. (5 Points)
-5. Train the LSTM model with batch_size=64 for 10 epochs and report training and validation accuracies over epochs. (5 Points)
-6. Print out best validation accuracy. (5 Points)
+3. Build the LSTM model with 1 embedding layer, 1 LSTM layer, and 1 Dense layer. Print out model summary. The embedding vector is specified with the dimension of 8
+4. Compile the LSTM model with Adam optimizer, binary_crossentropy loss function, and accuracy metrics.
+5. Train the LSTM model with batch_size=64 for 10 epochs and report training and validation accuracies over epochs.
+6. Print out best validation accuracy.
 
 ## Part 3
 
